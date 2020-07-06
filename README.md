@@ -18,4 +18,5 @@ $ npm run serve
 $ npm run build
 ```
 
-> Copyright &copy; [OBot Team](https://github.com/SuperOBot) | Under AGPL-3.0 License.
+## Copyright
+> &copy; [OBot Team](https://github.com/SuperOBot) | Under AGPL-3.0 License.
