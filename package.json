@@ -1,0 +1,42 @@
+{
+  "name": "obot-home-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "欧波特的主站前端",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperOBot/OBot-Home-Web.git"
+  },
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SuperOBot/OBot-Home-Web/issues"
+  },
+  "author": "OBot Team <hi@obot.run>",
+  "homepage": "https://github.com/SuperOBot/OBot-Home-Web#readme",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuetify": "^2.2.11",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~4.4.0",
+    "@vue/cli-plugin-vuex": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-markdown": "^0.1.2",
+    "vue-cli-plugin-vuetify": "^2.0.6",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
