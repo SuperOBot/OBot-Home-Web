@@ -6,16 +6,14 @@
 import axios from "axios";
 import Page from "@/components/index/page";
 
-import markdown from "@/assets/test.md";
-
 export default {
   components: {
     Page,
   },
   data: () => ({
     title: "关于",
-    cover: "https://api.ohmyga.cn/wallpaper/",
-    content: markdown,
+    cover: require('../../assets/sakamotosan2.jpg'),
+    content: null,
     loaded: false,
     skeleton: [
         ['heading', '40%', 'about-sh'],
