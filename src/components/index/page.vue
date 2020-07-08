@@ -67,11 +67,13 @@ export default {
 
 .cover-box .title {
   top: 100px;
-  left: calc(50% - 36px);
+  left: 0;
+  right: 0;
   z-index: 20;
   position: absolute;
   color: #fff;
   font-size: 36px;
+  text-align: center;
 }
 
 .content .content-card {
@@ -95,6 +97,11 @@ export default {
 
   .cover-box .cover {
     height: 220px !important;
+  }
+
+  .cover-box .title {
+    top: 50%;
+    transform: translateY(-35%);
   }
 }
 </style>
